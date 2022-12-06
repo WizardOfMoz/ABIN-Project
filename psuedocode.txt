@@ -1,0 +1,12 @@
+Scan Q from 0....n
+BWT search on P to check if a match exists
+If mismatch - LMEM - common substring of P and Q save as 4 tuple.
+
+Sort LMEM by PosDiff - P_end - Q_start : Adjacent difference(PosDiff) < 25
+This way we get sets of LMEM that are within a range of colinearity.
+
+Sort each set by Q_start : Find same Q_start regions. Out of these, choose the one with the least adjacent difference. Remove outlier- adjacent difference(PosDiff)>5
+
+Remove overlaps between adjacent pairs - give overlap to larger substring
+
+Gaps identification : Consecutive difference > 200 : Find Number of common k-mers 
