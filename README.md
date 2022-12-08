@@ -8,9 +8,9 @@
 
     Aaloke Mozumdar (2019004)  
     Aditya Choudhary (2020489)  
-    Ananya Jain (2019408)
-    Mohit Bansal (2020526)
-    Nikhil Kumar Gupta (2020530)
+    Ananya Jain (2019408)  
+    Mohit Bansal (2020526)  
+    Nikhil Kumar Gupta (2020530)  
 
 
 
